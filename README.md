@@ -1,7 +1,7 @@
 # bashman
 Postman for the terminal, made with Bash.
 
-A powerful Bash-based REST API client designed to mimic Postman functionality — right from your terminal. Ideal for developers who prefer command-line tools or want a lightweight alternative to heavy GUI-based tools like Postman.
+A simple Bash-based REST API client designed to mimic Postman functionality — right from your terminal. Ideal for developers who prefer command-line tools or want a lightweight alternative to heavy GUI-based tools like Postman.
 
 ---
 
