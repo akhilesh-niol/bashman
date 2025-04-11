@@ -66,6 +66,13 @@ function load_env() {
 
 print_banner
 
+# Check for --desc or -desc before shifting
+if [[ "$1" == "--desc" || "$1" == "-desc" ]]; then
+  echo -e "${GREEN}API Client — A Postman-style interactive REST API tool for your terminal.${NC}"
+  echo "Supports headers, tokens, environments, pretty JSON responses, and much more."
+  exit 0
+fi
+
 METHOD="$1"
 URL="$2"
 shift 2 || true
